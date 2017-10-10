@@ -28,12 +28,13 @@
 	nav.horizontal ul li{display: inline-block;}/* horizontal menu */
 	img{max-width:100%;}
 /*-- //Reset-Code --*/
-.body {
-	background:url('../images/') no-repeat 0px 0px;
+.body{
+	background:url('../images/background') no-repeat 0px 0px;
 	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 	background-attachment: fixed;
     background-position: center;
+	margin: 0px;
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Montserrat', sans-serif;
@@ -69,7 +70,7 @@ h1{
 	background: #FFC107;
 }
 .resp-tab-item {
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-weight: 500;
     cursor: pointer;
     display: inline-block;
@@ -1283,13 +1284,7 @@ form.blackbg{
   margin:0;
   padding:0;
 }
-body{
-  font-family:arial,sans-serif;
-  font-size:50%;
-  margin:1em;
-  background:#666;
-  color:#fff;
-}
+
 ul,li{
   list-style:none;
 }
